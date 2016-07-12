@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="4dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgSong"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:id="@+id/infoAlbum"
+            android:layout_toRightOf="@+id/imgSong"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtSongName"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="4dp"
+                android:text="Hello viet nam - single"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtInfoSong"
+                android:text="Nguyen ngoc anh"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageButton
+
+            android:id="@+id/imgBtnOptionSong"
+            android:layout_toRightOf="@+id/infoAlbum"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/ic_more_vert_white_24dp"
+            android:layout_width="10dp"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
