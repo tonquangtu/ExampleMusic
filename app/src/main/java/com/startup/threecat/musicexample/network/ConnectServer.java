@@ -12,7 +12,6 @@ public class ConnectServer {
     public static final String URL_BASE = "https://api.discogs.com/";
 
     public static RequestAPI getRequestAPI() {
-
         if(requestAPI == null) {
             Retrofit.Builder builder = new Retrofit.Builder();
             builder.baseUrl(URL_BASE);

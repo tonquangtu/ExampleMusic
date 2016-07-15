@@ -20,7 +20,6 @@ import java.util.ArrayList;
  */
 public class ReListSongAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-
     private static Context context;
     private ArrayList<InfoSong> listSong;
     private OnItemClickListener listener;

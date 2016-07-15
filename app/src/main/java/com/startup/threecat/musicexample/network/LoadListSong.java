@@ -13,7 +13,6 @@ import retrofit2.Response;
  * Created by Dell on 12-Jul-16.
  */
 public class LoadListSong {
-
     public static final int LOAD_SUCCESS = 1;
     public static final int LOAD_FAIL = 2;
     public static final int LOADING = 0;

@@ -4,7 +4,6 @@ package com.startup.threecat.musicexample.model;
  * Created by Dell on 12-Jul-16.
  */
 public class InfoSong {
-
     private String title;
     private String resource_url;
     private String year;

@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
 //        popup.show();//showing popup menu
 //    }
 
+    
     public void handleOnClickItem(int position) {
 
         Album album = listAlbum.get(position);

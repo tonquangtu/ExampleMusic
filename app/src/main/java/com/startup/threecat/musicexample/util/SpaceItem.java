@@ -15,6 +15,7 @@ public class SpaceItem extends RecyclerView.ItemDecoration {
     private int space;
     private int type;
     private int size;
+
     public SpaceItem(int space, int type, int size){
         this.space = space;
         this.type = type;
