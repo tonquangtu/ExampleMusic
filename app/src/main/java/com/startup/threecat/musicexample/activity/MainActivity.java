@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         initView();
     }
 
+    /**
+     * init view for main screen
+     */
     public void initView() {
 
         reListAlbum = (RecyclerView)this.findViewById(R.id.recyclerListAlbum);
@@ -82,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
 //        popup.show();//showing popup menu
 //    }
 
+    
     public void handleOnClickItem(int position) {
 
         Album album = listAlbum.get(position);

@@ -19,6 +19,7 @@ import java.util.ArrayList;
  */
 public class ReListAlbumAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
+
     private static Context context;
     private ArrayList<Album> listAlbum;
 

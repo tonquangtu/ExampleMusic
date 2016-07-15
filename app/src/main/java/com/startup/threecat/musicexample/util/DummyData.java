@@ -9,7 +9,6 @@ import java.util.ArrayList;
  * Created by Dell on 12-Jul-16.
  */
 public class DummyData {
-
     /**
      * init data for test
      * @return

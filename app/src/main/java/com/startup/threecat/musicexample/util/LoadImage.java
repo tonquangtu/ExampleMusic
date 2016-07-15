@@ -12,7 +12,6 @@ import java.util.Random;
  * Created by Dell on 12-Jul-16.
  */
 public class LoadImage {
-
     /**
      * Load image from resource,
      * Use picasso library to load image
